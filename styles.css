@@ -39,3 +39,21 @@ body {
   .cooperantes label {
     margin-right: 10px;
   }
+  
+  /* Estilos personalizados para la tabla */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05); /* Color de fondo para filas impares */
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6; /* Borde de la tabla */
+}
+
+.table-dark th {
+  background-color: #343a40; /* Color de fondo para el encabezado */
+  color: white; /* Color del texto en el encabezado */
+}
+
+.table-responsive {
+  overflow-x: auto; /* Hacer la tabla responsive */
+}
